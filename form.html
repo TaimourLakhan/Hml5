@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <header>
+        <h1> HAFIZ MUHAMMAD ZUBAIR</h1>
+    </header>
+    <main>
+        <form action="/form.php">
+            <!-- it wil collec the information and send to back end it will tackle it accordingly -->
+            <!-- there are many elemnents of the html form which are following -->
+            <!-- used of text email and submit -->
+            <label for="name">enter your name:</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="lakhan">enter you email:</label>
+            <input type="email" name="lakhan" id="lakhan" required>
+            <br>
+            <div>
+                <input type="submit" value="subscribe!">
+            </div>
+            <!-- THE USE OF BUTTON AND RADIO ELEMENTS IN THE HTML FORM  -->
+            <div>
+                <label for="ali">section a</label>
+                <input type="radio" name="lakhan" id="ali">
+                <br>
+                <label for="baig">section b</label>
+                <input type="radio" name="lakhan" id="baig"> 
+                <br>
+                <label for="babar"> section c</label>
+                <input type="radio" name="lakhan" id="babar">
+                <br>
+                <!-- the use of the checkbox is like that -->
+                <label for="want food"> do u wana food</label>
+                <input type="checkbox" name="taimour" id="want food"> 
+                <br>
+                <label for="taimour jutt">add to favourite</label>
+                <input type="button" name="" id="taimour jutt">
+
+                <!-- if name is same then we can select the only one radio box at a time -->
+
+                <!-- THE USE OF TEXTARIA ELEMENTS  -->
+                <br>
+                <label for="name">date :</label>
+                <input type="date" name="name" id="name">
+                <!-- in this way we can add date -->
+                <br>
+                <hr>
+                <textarea name="expalin" id="explain" cols="30" rows="10" placeholder="explain who are you"></textarea>
+                <br><hr>
+
+                <!-- use of select and the option tab  -->
+                <label for="pet-select">Choose a pet:</label>
+
+                <select name="pets" id="pet-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="parrot">Parrot</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
+                </select>
+
+            </div>
+            <div>
+                <!-- in this way we can reset the whole form like that -->
+               <label for="lakhan">reset :</label>
+                <input type="reset" value="reset now" id="lakhan">
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>

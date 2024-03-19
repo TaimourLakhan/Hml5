@@ -1,0 +1,4 @@
+if we clone the veiw source code then most of the website lose there
+original form due to relative link 
+the website which have absolute link then its form remain the same
+this issue can be solved if we know about html css and javascript
